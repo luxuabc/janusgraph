@@ -31,7 +31,7 @@ import org.apache.http.conn.ssl.TrustStrategy;
 import org.apache.http.impl.nio.client.HttpAsyncClientBuilder;
 import org.apache.http.ssl.SSLContextBuilder;
 import org.apache.http.ssl.SSLContexts;
-import org.elasticsearch.client.RestClientBuilder.HttpClientConfigCallback;
+import org.opensearch.client.RestClientBuilder.HttpClientConfigCallback;
 
 /**
  * Use {@link Builder#create()} or {@link Builder#createCustom(SSLContextBuilder)} to create an instance of this callback

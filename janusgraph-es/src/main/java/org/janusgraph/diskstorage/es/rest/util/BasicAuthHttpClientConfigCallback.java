@@ -20,7 +20,7 @@ import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.http.client.CredentialsProvider;
 import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.nio.client.HttpAsyncClientBuilder;
-import org.elasticsearch.client.RestClientBuilder.HttpClientConfigCallback;
+import org.opensearch.client.RestClientBuilder.HttpClientConfigCallback;
 
 import com.google.common.base.Preconditions;
 
